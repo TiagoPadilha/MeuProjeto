@@ -76,7 +76,7 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 
-<<<<<<< HEAD
+
 #DATABASES = {
  #   'default': {
   #      'ENGINE': 'django.db.backends.mysql',
@@ -88,15 +88,7 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 #    }
 #}
 
-BANCO DE DADOS  = {
-    ' default ' : {
-        ' ENGINE ' : ' django.db.backends.mysql ' ,
-        ' NOME ' : ' <tiagopadilha $ campeonatobrasileiro> ' ,
-        ' USER ' : ' <tiagopadilhaa> ' ,
-        ' SENHA ' : ' <senha123> ' ,
-        ' HOST ' : ' <tiagopadilhaa.mysql.pythonanywhere-services.com> ' ,
-        ' PORT ' : ' ' ,
-=======
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -105,7 +97,7 @@ DATABASES = {
         'PASSWORD': '<senha123>',
         'HOST': '<tiagopadilhaa.mysql.pythonanywhere-services.com>',
         'PORT': '',
->>>>>>> b0c3d93e2ea67bb4a38ad10fb7ce551bdf925a8e
+
     }
 }
 
